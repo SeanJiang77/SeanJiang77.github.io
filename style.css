@@ -39,12 +39,12 @@ header nav ul li a {
 }
 
 .home {
-    background: url('background.jpg') no-repeat center center/cover;
+    background: #1e1e1e; /* 深色背景 */
     height: 100vh;
-    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff; /* 确保字体在深色背景上清晰 */
 }
 
 .highlight {
@@ -57,7 +57,6 @@ header nav ul li a {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 20px;
     transition: background 0.3s ease;
 }
 
@@ -100,4 +99,21 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+
+.intro h1 {
+    color: #333; /* 深灰色，提高对比度 */
+}
+
+.intro h2 {
+    color: #555; /* 较浅的灰色 */
+}
+
+.intro p {
+    color: #777; /* 中等灰色 */
+}
+
+.button {
+    background-color: #f39c12; /* 保持按钮背景色 */
+    color: #fff; /* 确保按钮文本是白色 */
 }
