@@ -2,19 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f8f9fa;
     color: #333;
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 20px;
     text-align: center;
 }
 
@@ -28,40 +27,45 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #007bff;
     text-decoration: none;
     font-weight: bold;
 }
 
+header nav ul li a:hover {
+    color: #0056b3;
+}
+
 .section {
-    padding: 50px 20px;
+    padding: 60px 20px;
     text-align: center;
 }
 
 .home {
-    background: #1e1e1e; /* 深色背景 */
+    background-color: #007bff;
+    color: white;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff; /* 确保字体在深色背景上清晰 */
 }
 
 .highlight {
-    color: #f39c12;
+    color: #ffd700;
 }
 
 .button {
-    background-color: #f39c12;
-    color: #fff;
+    background-color: #ffd700;
+    color: #007bff;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
-    transition: background 0.3s ease;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
 }
 
 .button:hover {
-    background-color: #e67e22;
+    background-color: #ffc107;
 }
 
 .skill-icons {
@@ -73,7 +77,7 @@ header nav ul li a {
 
 .skill {
     font-size: 40px;
-    color: #f39c12;
+    color: #007bff;
 }
 
 .project-list {
@@ -86,34 +90,16 @@ header nav ul li a {
 .social-links a {
     font-size: 40px;
     margin: 0 10px;
-    color: #333;
+    color: #007bff;
     transition: color 0.3s ease;
 }
 
 .social-links a:hover {
-    color: #f39c12;
+    color: #0056b3;
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background-color: #f1f1f1;
+    padding: 20px;
     text-align: center;
-    padding: 10px;
-}
-
-.intro h1 {
-    color: #333; /* 深灰色，提高对比度 */
-}
-
-.intro h2 {
-    color: #555; /* 较浅的灰色 */
-}
-
-.intro p {
-    color: #777; /* 中等灰色 */
-}
-
-.button {
-    background-color: #f39c12; /* 保持按钮背景色 */
-    color: #fff; /* 确保按钮文本是白色 */
 }

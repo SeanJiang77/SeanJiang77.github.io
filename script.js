@@ -1,4 +1,4 @@
-// Example: Smooth scroll to section when clicking nav links
+// Smooth scroll to sections when clicking nav links
 document.querySelectorAll('nav ul li a').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
